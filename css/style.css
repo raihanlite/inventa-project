@@ -1,0 +1,129 @@
+/* RESET & BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+}
+
+header {
+    /* background-color: #20282D; */
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* TOP HEADER */
+.topHeader {
+    background-color: #20282D;
+    padding: 0 10px;
+}
+
+.topHeaderLeft,
+.topHeaderRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+    flex-wrap: wrap;
+}
+
+.topHeaderLeft i {
+    margin-right: 10px;
+}
+
+.topHeaderSpace {
+    padding: 0 20px;
+    color: #ccc;
+}
+
+.topHeaderNev ul,
+.topHeaderIcon ul,
+.mainMenu ul {
+    display: flex;
+    gap: 16px;
+}
+
+/* HOVER EFFECTS */
+.topHeaderMail a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.mainHeader {
+    margin: 20px 0;
+}
+
+.mainMenu ul li a, .mainMenuIcon{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.mainMenu ul {
+    gap: 20px !important;
+}
+.mainMenuIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-btn {
+    background-color: #F2F2F2;
+    height: 55px;
+    width: 55px;
+    border-radius: 15px;
+    border: none;
+}
+
+.quote-btn {
+    height: 55px;
+    max-width: max-content;
+    padding: 13px 29px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    background-color: #20282d;
+    color: #fff;
+}
+
+.menu-btn {
+    background-color: #F2F2F2;
+    height: 55px;
+    width: 55px;
+    border-radius: 15px;
+    border: none;
+}
+
+.bg {
+    background: url(../images/bg-img.webp) no-repeat center center / cover red;
+    padding: 250px;
+}
