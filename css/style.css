@@ -127,3 +127,53 @@ header a {
     background: url(../images/bg-img.webp) no-repeat center center / cover red;
     padding: 250px;
 }
+
+.heroIntroText {
+    color: #fff;
+    text-align: center;
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroIntroText span {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.heroIntroText > p:first-of-type {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.heroIntroText > p:nth-of-type(2) {
+    max-width: 65%;
+    margin: auto;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+
+.heroIntroText h1 {
+    font-size: 80px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.heroIntroText a {
+    text-decoration: none;
+    height: 55px;
+    padding: 13px 29px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    color: #20282d;
+    background-color: #fff;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+
+}
